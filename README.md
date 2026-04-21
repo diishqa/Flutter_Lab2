@@ -1,17 +1,13 @@
-# first_flutter_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Лабораторная работа №2. Знакомство с Flutter
+## Кузьмина Диана ИСП-232
+___
+![a](img/step9_k.png)
+**Flutter** — это открытый кроссплатформенный UI-фреймворк, разработанный
+компанией Google. Он позволяет писать один код на языке Dart и собирать из него
+нативные приложения для шести платформ одновременно: Android, iOS, Web,
+Windows, macOS и Linux.
+В отличие от React Native или Ionic, Flutter не использует нативные компоненты
+платформы и не создаёт мост к ним. Вместо этого Flutter рисует весь интерфейс
+самостоятельно через собственный графический движок Skia / Impeller. Это даёт
+пиксельно-точный одинаковый UI на любой платформе и высокую
+производительность (60/120 fps).

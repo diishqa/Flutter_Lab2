@@ -33,15 +33,33 @@ import 'package:flutter/material.dart';
 // }
 
 //задание 2
+// void main() {
+//   runApp(
+//     MaterialApp(
+//       debugShowCheckedModeBanner: false,
+//       home: Scaffold(
+//         body: Center(
+//           child: Text(
+//             'Привет! Меня зовут Диана Кузьмина\nЯ студент группы ИСП-232',
+//             style: TextStyle(fontSize: 24),
+//           ),
+//         ),
+//       ),
+//     ),
+//   );
+// }
+
+//задание 3
 void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
-          child: Text(
-            'Привет! Меня зовут Диана Кузьмина\nЯ студент группы ИСП-232',
-            style: TextStyle(fontSize: 24),
+          child: Image.asset(
+            'img/cot.jpg',
+            width: 300,
+            height: 300,
           ),
         ),
       ),
